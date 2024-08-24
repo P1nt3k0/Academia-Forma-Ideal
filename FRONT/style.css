@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap");
+
+body {
+  background-color: #203359;
+  font-family: "Inria Sans", sans-serif;
+}
+
+.custom-navbar {
+  background-color: #A9C2D9; /* Cor de fundo */
+  padding: 1rem; /* Padding personalizado */
+  border-radius: 5px;
+}
+
+.custom-logo {
+  /* max-height: 50px; Altura máxima do logo */
+  height: 60px;
+}
+
+.custom-navbar-toggler {
+  border: none;
+  background: none;
+  font-size: 20px; /* Tamanho do ícone do menu */
+}
+
+.custom-navbar-toggler-icon {
+  display: inline-block;
+  width: 30px;
+  height: 3px;
+  background-color: #000;
+  margin: 6px 0;
+  transition: all 0.3s ease-in-out;
+  
+}
+
+.custom-navbar-toggler.collapsed .custom-navbar-toggler-icon:nth-child(1) {
+  transform: rotate(45deg) translate(5px, 5px);
+}
+
+.custom-navbar-toggler.collapsed .custom-navbar-toggler-icon:nth-child(2) {
+  opacity: 0;
+}
+
+.custom-navbar-toggler.collapsed .custom-navbar-toggler-icon:nth-child(3) {
+  transform: rotate(-45deg) translate(6px, -6px);
+}
+
+.custom-navbar-collapse {
+  display: flex;
+  flex-grow: 1;
+  justify-content: center; /* Centraliza os itens horizontalmente */
+}
+
+.custom-navbar-nav {
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: 0;
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+.custom-nav-item {
+  padding: 0.5rem 0;
+  display: grid;
+}
+
+.custom-nav-link {
+  color: #000;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  transition: color 0.3s;
+  font-size: 30px;
+  display: grid;
+}
+
+.custom-nav-link:hover {
+  color: #007bff;
+}
+
+
+.banner{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-right: 20px;
+}
+
+.beneficios{
+  text-align: center;
+  color: aliceblue;
+  padding: 20px;
+  text-decoration: underline;
+}
+
+.p1{
+  display: ;
+}
+
+.imgg {
+  /* height: 60px; */
+  /* height: ; */
+  /* max-width: 69%;  */
+
+  max-width: 100%;
+  width: 1920px;
+  height: 850px;
+}
+
+.teste {
+  align-content: end;
+}
+
+.carousel-caption{
+     font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    color: #ff0000f8;
+  }
+
